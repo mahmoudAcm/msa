@@ -1,0 +1,31 @@
+body {
+  background: transparent url(MSA.jpg) repeat 0 0;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list li {
+  position: relative;
+  display: block;
+  padding: 7px 10px;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  direction: ltr;
+  font-size: small;
+  font-weight: 600;
+  color: #003366;
+  transition: 0.3 color;
+}
+
+.list li:hover {
+    color: #2a6496;
+    text-decoration: underline;
+}

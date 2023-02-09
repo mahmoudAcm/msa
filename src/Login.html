@@ -1,59 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../dist/main.css" rel="stylesheet">
-    <link href="./Login.css" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/main.css" rel="stylesheet" />
+    <link href="./Login.css" rel="stylesheet" />
     <title>MAS STUDENT ZONE</title>
-</head>
-<body>
-    <div class="flex flex-col md:scale-[0.7] lg:scale-100 scale-[0.45] max-w-[780px] h-[600px] bg-[#ffffffcc] rounded-[5px] shadow-[0px_0px_20px_0px_rgb(0_0_0_/_40%)]">
-        <div class="flex items-center p-[40px_30px_20px_30px]">
-            <a href="https://msa.edu.eg" target="_blank">
-                <img src="./msa-university-logo.png" alt="msa-university-log" class="w-[140px] h-[90px]"/>
-            </a>
-            <h1 class="text-[#003366] text-[32px] font-[Cambria,Cochin,Georgia,Times] ml-[13px]">Modern Sciences and Arts University</h1>
-        </div>
-        <div class="flex flex-col px-[20px] pb-[40px]">
-            <h2 class="text-[#FF3300] text-[32px] text-center font-[Cambria,Cochin,Georgia,Times] leading-[15px] pb-[10px] mb-[5px]">Student Zone</h2>
-            <p class="text-[16px] font-[Cambria,Cochin,Georgia,Times] leading-[15px] text-justify">
-                Dear Msaians welcome to your new student zone. 
-                This services are tailored to meet your expectations as part of our continuous development of student services MSA Values your feedback and Comments at anytime. 
-                If you have any questions please contact us on our Email <a href="mailto:online.support@msa.edu.eg" target="_blank" class="text-[#FF3300] font-bold">online.support@msa.edu.eg</a></p>
-        </div>
-        <div class="flex mx-auto bg-[#eaeaea] w-[650px] border-[12px] border-t-0 border-[#dcdcdc]">
-            <form class="flex flex-col gap-[10px] p-[36px] pb-[10px] flex-1">
-                <h3 class="text-[24px] font-[Cambria,Cochin,Georgia,Times] text-[#777] border-b-[1px] border-[#DDDDDD] leading-[24px] pb-[10px]">MAS Login</h3>
-                <input type="number" class="w-[302px] h-[44px] bg-white border border-[#ababab] text-[#f7f7f7] rounded-[3px] p-[12px] text-[14px] text-[#6D6D6D]" placeholder="Student ID"/>
-                <input type="password" class="w-[302px] h-[44px] bg-white border border-[#ababab] text-[#f7f7f7] rounded-[3px] p-[12px] text-[14px] text-[#6D6D6D]" placeholder="password"/>
-                <div class="flex gap-[5px]">
-                    <button class="bg-[#002D54] hover:underline text-white w-[178px] h-[37px] text-[16px] text-center rounded-tl-[5px] rounded-bl-[5px]">Log In</button>
-                    <button class="bg-[#cb6d1c] hover:underline text-white w-[116px] h-[37px] text-[16px] text-center rounded-tr-[5px] rounded-br-[5px]">Clear</button>
-                </div>
-                <div class="flex justify-between mb-[5px]">
-                    <a class="flex items-center gap-[5px] text-[#002D54] font-bold text-[12px] underline" href="http://students-zone.msa.edu.eg/ChangePassword.aspx" target="_blank"><img src="./lock-24-20.png" alt="lock"/>Change Password</a>
-                    <a class="flex items-center gap-[5px] text-[#002D54] font-bold text-[12px] underline" href="http://students-zone.msa.edu.eg/ForgotPassword.aspx" target="_blank"><img src="./lock-24-20.png" alt="lock"/>Forgot Password</a>
-                </div>
-                <div class="flex flex-col">
-                    <div class="flex font-bold leading-[15px] text-[13px] text-[#333333] font-[Cambria,Cochin,Georgia,Times]">
-                        <span>online users: 5005</span>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <span>Page Request: 29737</span>
-                    </div>
-                    <span class="text-[#777] text-[11px] select-none">Copyright © 2016 MSA University • All rights reserved</span>
-                </div>
-            </form>
-            <div class="w-[200px] h-[309px] bg-[#002d54]">
-                <ul class="list">
-                    <li><a href="https://mail.google.com/" target="_blank"><span><img src="./mail.png" alt="mail"/></span>MSA Email</a><img src="./check.png" alt="check" class="check"/></li>
-                    <li><a href="http://e-learning.msa.edu.eg/" target="_blank"><span><img src="./ebook.png" alt="ebook"/></span>E-Learning</a><img src="./check.png" alt="check" class="check"/></li>
-                    <li><a href="http://adf.msa.edu.eg/dental" target="_blank"><span><img src="./dent.png" alt="dent"/></span>Dental Lab Orders</a><img src="./check.png" alt="check" class="check"/></li>
-                    <li><a href="http://adf.msa.edu.eg/services" target="_blank"><span><img src="./payment-terminal.png" alt="payment-terminal"/></span>MAS Services</a><img src="./check.png" alt="check" class="check"/></li>
-                </ul>
+  </head>
+  <body>
+    <div
+      class="flex flex-col md:scale-[0.7] lg:scale-100 scale-[0.45] max-w-[780px] h-[600px] bg-[#ffffffcc] rounded-[5px] shadow-[0px_0px_20px_0px_rgb(0_0_0_/_40%)]"
+    >
+      <div class="flex items-center p-[40px_30px_20px_30px]">
+        <a href="https://msa.edu.eg" target="_blank">
+          <img
+            src="./msa-university-logo.png"
+            alt="msa-university-log"
+            class="w-[140px] h-[90px]"
+          />
+        </a>
+        <h1
+          class="text-[#003366] text-[32px] font-[Cambria,Cochin,Georgia,Times] ml-[13px] [@media(max-width:767px)]:text-[29px]"
+        >
+          Modern Sciences and Arts University
+        </h1>
+      </div>
+      <div class="flex flex-col px-[20px] pb-[40px]">
+        <h2
+          class="text-[#FF3300] text-[32px] text-center font-[Cambria,Cochin,Georgia,Times] leading-[15px] pb-[10px] mb-[5px]"
+        >
+          Student Zone
+        </h2>
+        <p
+          class="text-[16px] font-[Cambria,Cochin,Georgia,Times] leading-[15px] text-justify"
+        >
+          Dear Msaians welcome to your new student zone. This services are
+          tailored to meet your expectations as part of our continuous
+          development of student services MSA Values your feedback and Comments
+          at anytime. If you have any questions please contact us on our Email
+          <a
+            href="mailto:online.support@msa.edu.eg"
+            target="_blank"
+            class="text-[#FF3300] font-bold"
+            >online.support@msa.edu.eg</a
+          >
+        </p>
+      </div>
+      <div
+        class="flex mx-auto bg-[#eaeaea] w-[650px] border-[12px] border-t-0 border-[#dcdcdc] [@media(max-width:767px)]:scale-x-[0.76] [@media(max-width:767px)]:scale-y-[0.8]"
+      >
+        <form class="flex flex-col gap-[10px] p-[36px] pb-[10px] flex-1">
+          <h3
+            class="text-[24px] font-[Cambria,Cochin,Georgia,Times] text-[#777] border-b-[1px] border-[#DDDDDD] leading-[24px] pb-[10px]"
+          >
+            MAS Login
+          </h3>
+          <input
+            type="number"
+            class="w-[302px] h-[44px] bg-white border border-[#ababab] rounded-[3px] p-[12px] text-[14px] text-[#6D6D6D]"
+            placeholder="Student ID"
+          />
+          <input
+            type="password"
+            class="w-[302px] h-[44px] bg-white border border-[#ababab] rounded-[3px] p-[12px] text-[14px] text-[#6D6D6D]"
+            placeholder="password"
+          />
+          <div class="flex gap-[5px]">
+            <a href="./index.html"
+              ><button
+                type="button"
+                class="bg-[#002D54] hover:underline text-white w-[178px] h-[37px] text-[16px] text-center rounded-tl-[5px] rounded-bl-[5px]"
+              >
+                Log In
+              </button></a
+            >
+            <button
+              class="bg-[#cb6d1c] hover:underline text-white w-[116px] h-[37px] text-[16px] text-center rounded-tr-[5px] rounded-br-[5px]"
+            >
+              Clear
+            </button>
+          </div>
+          <div class="flex justify-between mb-[5px]">
+            <a
+              class="flex items-center gap-[5px] text-[#002D54] font-bold text-[12px] underline"
+              href="http://students-zone.msa.edu.eg/ChangePassword.aspx"
+              target="_blank"
+              ><img src="./lock-24-20.png" alt="lock" />Change Password</a
+            >
+            <a
+              class="flex items-center gap-[5px] text-[#002D54] font-bold text-[12px] underline"
+              href="http://students-zone.msa.edu.eg/ForgotPassword.aspx"
+              target="_blank"
+              ><img src="./lock-24-20.png" alt="lock" />Forgot Password</a
+            >
+          </div>
+          <div class="flex flex-col">
+            <div
+              class="flex font-bold leading-[15px] text-[13px] text-[#333333] font-[Cambria,Cochin,Georgia,Times]"
+            >
+              <span>online users: 5005</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <span>Page Request: 29737</span>
             </div>
+            <span class="text-[#777] text-[11px] select-none"
+              >Copyright © 2016 MSA University • All rights reserved</span
+            >
+          </div>
+        </form>
+        <div class="w-[200px] h-[309px] bg-[#002d54]">
+          <ul class="list">
+            <li>
+              <a href="https://mail.google.com/" target="_blank"
+                ><span><img src="./mail.png" alt="mail" /></span>MSA Email</a
+              ><img src="./check.png" alt="check" class="check" />
+            </li>
+            <li>
+              <a href="http://e-learning.msa.edu.eg/" target="_blank"
+                ><span><img src="./ebook.png" alt="ebook" /></span>E-Learning</a
+              ><img src="./check.png" alt="check" class="check" />
+            </li>
+            <li>
+              <a href="http://adf.msa.edu.eg/dental" target="_blank"
+                ><span><img src="./dent.png" alt="dent" /></span>Dental Lab
+                Orders</a
+              ><img src="./check.png" alt="check" class="check" />
+            </li>
+            <li>
+              <a href="http://adf.msa.edu.eg/services" target="_blank"
+                ><span
+                  ><img
+                    src="./payment-terminal.png"
+                    alt="payment-terminal" /></span
+                >MAS Services</a
+              ><img src="./check.png" alt="check" class="check" />
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
