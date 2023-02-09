@@ -1,0 +1,428 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+    background: #F1F1F1;
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #006699;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #666666;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+     color: #666666;
+}
+
+h3
+{
+    font-size: 1.2em;
+    background-color: #557493;
+    color: #FFFFFF;
+}
+
+h4
+{
+    font-size: 1.1em;
+    color: #4682b4;
+    font-weight:700;
+}
+
+h5, h6
+{
+    font-size: 1em;
+    color: #006699;
+    margin-top: 0px;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+      width: 950px;
+    background-color: #fff;
+    margin: 0px auto 0px auto;
+   -webkit-box-shadow:  0px 0px 20px 0px gray;
+    box-shadow:  0px 0px 20px 0px gray;
+    border-radius:10px;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
+.header
+{
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    background:  #102447;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.header h1
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+        margin: 0px;
+        padding: 21px 0px 0px 33px;
+        color: #f9f9f9;
+        line-height: 2em;
+        font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    
+}
+
+
+
+.alert-danger {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+    text-align: center;
+}
+
+.alert-danger hr {
+  border-top-color: #e6c1c7;
+}
+
+.alert-danger .alert-link {
+  color: #953b39;
+}
+
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 10px 350px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.left-side
+{
+	font-family: 'Times New Roman' , Times, serif;
+	font-size: 20px;
+	color: #4682b4;
+	padding-left: 20px;
+	text-align:right;
+}
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.std_img
+{
+    display: block;
+    float: right;
+    text-align: right;
+    width: auto;
+  
+}
+
+.imgStudent {
+    float: right;
+    margin-right: 0px;
+    /* border: solid 5px orange; margin-top: -6px;*/
+    height: 111px;
+    top: 0;
+  
+    right: 0;
+    border-radius: 10px 0px 30px 0px;
+    /* border-radius: 13px;
+    border: 1px solid black;*/
+}
+
+.Summary
+{ width: 89%;
+       font-size: 1.1em;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    color: White; 
+  
+}
+
+.bold
+{
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.tb10 {
+	background-image:url(images/form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 233px;
+	color:#333333;
+	padding:3px;
+	margin-right:4px;
+	margin-top:8px;
+	font-family:tahoma, arial, sans-serif; 
+}
+.txtApp{
+	background-image:url('images/form_bg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	color:#333333;
+	padding:3px;
+	margin-right:4px;
+	margin-top:8px;
+	font-family:tahoma, arial, sans-serif; 
+}
+
+
+
+
+.student-label
+{
+	font-family: tahoma;
+	font-size: 11pt;
+	color: #000000;
+}
+
+/***************************** arabic class **********************/
+
+.arabic
+{
+text-align:right;
+direction:rtl;
+line-height:1.8em;
+}
+
+.leg
+{
+
+   font-size: 1.5em;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+            font-size: 1.2em;
+    color: #006699;
+    margin-top: 0px;
+}
+
+
+.Zbutton
+{
+    border: 1px solid  #3A4F63;
+    background-color: #3A4F63;
+    font-family: Calibri;
+    font-weight: 500;
+    color: #FFFFFF;
+font-weight: bold;
+    height: 23px;
+}
+
+
+
+.Zbutton:active
+{
+    background-color: #4F6A86;
+    color: #FFFFFF;
+    border: 1px solid #0E8CBA;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+/*********************menu*********/
+ul#menu {
+    border-bottom: 1px #5C87B2 solid;
+    padding: 0 0 2px;
+    position: relative;
+    margin: 0;
+    text-align:left;
+}
+
+ul#menu li {
+    display: inline;
+    list-style: none;
+}
+
+ul#menu li#greeting {
+    padding: 2px 4px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.2em;
+    color: #fff;
+}
+
+ul#menu li a {
+    padding: 2px 4px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.4em;
+    background-color: #465c71;
+    color: #dde4ec;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: #bfcbd6;
+    text-decoration: none;
+    color: #465c71;
+}
+
+ul#menu li a:active {
+    background-color: #a6e2a6;
+    text-decoration: none;
+}
+
+ul#menu li.selected a {
+    background-color: #fff;
+    color: #000;
+}
